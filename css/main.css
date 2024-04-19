@@ -1,0 +1,56 @@
+.weekContainer .ctrl {
+  display: flex;
+  align-items: end;
+}
+.weekContainer .ctrl .btn {
+  background-color: #3fd0ea;
+  color: #02424e;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.weekContainer .ctrl .btn:hover {
+  background-color: #3dc9e2;
+}
+.weekContainer .ctrl .title .year {
+  font-size: 20px;
+}
+.weekContainer .ctrl .title .month {
+  font-size: 48px;
+}
+.weekContainer .ctrl .ctrl1 {
+  margin-left: auto;
+  margin-right: 10px;
+}
+.weekContainer .days {
+  display: flex;
+  gap: 2px;
+}
+.weekContainer .days .day {
+  flex-basis: 14.2857142857%;
+}
+.weekContainer .days .day .title {
+  font-size: 12px;
+}
+.weekContainer .days .day .date {
+  font-size: 28px;
+}
+.weekContainer .days .day .area {
+  background-color: #bdf1f3;
+  margin-bottom: 2px;
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+.weekContainer .days .day .area .note {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 2px;
+}/*# sourceMappingURL=main.css.map */

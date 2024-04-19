@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
+    <title>週行事曆</title>
+  </head>
+  <body>
+    <div class="weekContainer">
+      <div class="ctrl">
+        <div class="title">
+          <span class="year"></span>/<span class="month"></span>
+        </div>
+        <div class="ctrl1">
+          <div class="btn btnPrev">上一週</div>
+        </div>
+        <div>
+          <div class="btn btnNext">下一週</div>
+        </div>
+      </div>
+      <div class="days">
+
+      </div>
+    </div>
+    <template id="dayTemp">
+      <div class="day">
+        <div class="title">
+          <span class="month"></span>月/<span class="date"></span>日
+        </div>
+        <div class="area area0">早</div>
+        <div class="area area1">午</div>
+        <div class="area area2">晚</div>
+      </div>
+    </template>
+  </body>
+</html>
